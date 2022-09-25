@@ -13,11 +13,11 @@
 
 body {
   display: flex;
-  /* height: 100vh; */
+  height: 100vh;
 }
 
 .image-bar {
-  width: 40%;
+  width: 30%;
   position: relative;
   z-index: -1;
   text-align: center;
@@ -26,8 +26,10 @@ body {
 
 .vertical-img {
   display: block;
-  max-width: 640px;
-  max-height: 949px;
+  /* max-width: 640px;
+  max-height: 949px; */
+  height: 100%;
+  width: auto;
 }
 
 .image-sidebar {
@@ -54,6 +56,32 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  justify-content: space-evenly;
+  width: 70%;
   background: #F8F8F8;
+}
+
+.content-p {
+  padding-left: 35px;
+  padding-right: 60px;
+  font-size: 1.3em;
+}
+
+form {
+  background: white;
+  padding: 25px 60px 25px 35px;
+}
+
+.form-row {
+  display: flex;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 45px;
+}
+
+button {
+  margin: 0 60px 0 35px;
 }
