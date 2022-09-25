@@ -116,4 +116,23 @@ input:invalid {
 
 button {
   margin: 0 60px 0 35px;
+  padding: 15px 0;
+  width: 175px;
+  border-radius: 5px;
+  background: #596D48;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+button:hover {
+  background: #698056;
+}
+
+button:active {
+  background: white;
+  color: #596D48;
 }
